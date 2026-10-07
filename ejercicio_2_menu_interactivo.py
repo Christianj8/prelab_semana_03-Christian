@@ -1,3 +1,4 @@
+# Menú de control del robot
 while True:
     print("A. Mover a la derecha")
     print("B. Mover a la izquierda")
@@ -18,6 +19,6 @@ while True:
             print("El robot se desplazó hacia atrás")
         case "E":
             print("Apagando el robot...")
-            break  
+            break  # finaliza el bucle 
         case _:
             print("Comando no reconocido. Intente de nuevo.")
